@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Argha</title>
+    <!-- Tambahkan ini biar Tailwind aktif -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Argha</h1>
+        <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Wishlist</li>
+        <li>Fun Fact</li>
+        <li>Contact</li>
+        </ul>
+    </div>
+
+    <!-- Profile -->
+    <div class="profile">
+        <img src="img/profile.jpg" alt="Profile">
+        <h1>Argha Niqie Wijaksono</h1>
+        <p>Mahasiswa Ilmu Komputer</p>
+    </div>
+
+    <!-- About Me -->
+    <div class="about">
+        <h2>About Me</h2>
+        <p>Perkenalkan saya Argha Niqie Wijaksono atau biasa dipanggil Argha, saya adalah mahasiswa s-1 Ilmu Komputer Usu yang sedang berada di semester 3. Saya adalah seorang yang cukup pintar namun kehalang rasa malas, tetapi sejak kuliah ini saya tidak ingin membuang-buang ukt saya, jadi melalui web ini saya akan mulai perubahan. Di bawah ini adalah tabel project atau bisa dibilang wishlist saya. </p>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects">
+        <div class="card">
+        <img src="img/1.jpg" alt="">
+        <p>Set Up PC, sebenarnya ini adalah wishlist saya dari smp, alhamdullilah sudah kesampaian. Memimpikannya. ehe.</p>
+        </div>
+        <div class="card">
+        <img src="img/2.jpg" alt="">
+        <p>Trevelling, ini juga impian saya dari kecil tapi belum juga kesampaian.</p>
+        </div>
+        <div class="card">
+        <img src="img/3.jpg" alt="">
+        <p>Koleksi Keyboard, entah kenapa saya ingin sekali mengkoleksi beberapa keyboard yang menurut saya keren atau bagus suaranya.</p>
+        </div>
+    </div>
+
+    <!-- Fun Fact About Me -->
+    <section class="py-10">
+      <h1 class="text-2xl font-bold text-center mb-8">Fun Fact About Me</h1>
+
+      <!-- Wrapper -->
+      <div class="flex flex-col items-center gap-6">
+
+        <!-- Baris 1: 3 card -->
+        <div class="flex justify-center flex-wrap gap-6">
+          <!-- Card 1 -->
+          <div class="bg-blue-100 rounded-lg shadow-md w-60 p-3 hover:scale-105 transition-transform">
+            <img src="img/emyu.jpg" alt="" class="rounded-md mb-2">
+            <h2 class="text-lg font-bold">Pens Emyu</h2>
+            <p class="text-sm text-gray-600">Ya, itu artinya saya orang yang setia, sabar, dan gampang tersakiti.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-blue-100 rounded-lg shadow-md w-60 p-3 hover:scale-105 transition-transform">
+            <img src="img/perari.jpg" alt="" class="rounded-md mb-2">
+            <h2 class="text-lg font-bold">Tifosi</h2>
+            <p class="text-sm text-gray-600">Ini juga sama sih kek sebelah tapi beda sport doang, wkwk.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-blue-100 rounded-lg shadow-md w-60 p-3 hover:scale-105 transition-transform">
+            <img src="img/slip.jpg" alt="keyboard" class="rounded-md mb-2">
+            <h2 class="text-lg font-bold">Suka Tidur</h2>
+            <p class="text-sm text-gray-600">Saya adalah tipe orang yang bisa tidur di mana aja dan kapan aja.</p>
+          </div>
+        </div>
+
+        <!-- Baris 2: 2 card -->
+        <div class="flex justify-center flex-wrap gap-6">
+          <!-- Card 4 -->
+          <div class="bg-blue-100 rounded-lg shadow-md w-60 p-3 hover:scale-105 transition-transform">
+            <img src="img/gaming.jpg" alt="keyboard" class="rounded-md mb-2">
+            <h2 class="text-lg font-bold">Gaming 24/7</h2>
+            <p class="text-sm text-gray-600">Dulu, semenjak kuliah jadi tidak punya energy lagi untuk bermain game.</p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-blue-100 rounded-lg shadow-md w-60 p-3 hover:scale-105 transition-transform">
+            <img src="img/mylop.jpg" alt="keyboard" class="rounded-md mb-2">
+            <h2 class="text-lg font-bold">Got a GF</h2>
+            <p class="text-sm text-gray-600">Somehow, saya tidak tau bagaimana bisa mendapatkannya.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <div class="contact">
+        <h1>Contact Me</h1>
+        <form>
+        <input type="text" placeholder="Nama lengkap">
+        <input type="email" placeholder="@gmail.com">
+        <textarea placeholder="Pesan kamu"></textarea>
+        <button type="submit">Kirim Pesan</button>
+        <button type="reset">Reset</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created By <strong>Argha</strong></p>
+    </footer>
+</body>
+</html>
